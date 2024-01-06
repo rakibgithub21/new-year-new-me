@@ -77,18 +77,58 @@ header .container button {
     line-height: 26px;
 }
 
-.position{
+.position {
     position: relative;
 }
-.bgcolor{
+
+.bgcolor {
     width: 528.929px;
-        height: 528.929px;
-        border-radius: 528.929px;
-            background: rgba(241, 91, 34, 0.20);
-            position: absolute;
-            bottom: 9px ;
-            left: 22px;
-            z-index: -1;
+    height: 528.929px;
+    border-radius: 528.929px;
+    background: rgba(241, 91, 34, 0.20);
+    position: absolute;
+    bottom: 9px;
+    left: 22px;
+    z-index: -1;
+}
+
+section .sectiono-title {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 110px;
+}
+
+.my-plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.my-plan img {
+    width: 92.958px;
+    height: 92.958px;
+}
+
+.my-plan {
+    text-align: center;
+}
+
+.my-plan h3 {
+    color:#151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 18px 0;
+}
+
+.my-plan p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    
 }
 
 
