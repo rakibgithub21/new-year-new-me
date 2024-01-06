@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
 
 header {
@@ -35,3 +37,57 @@ header .container button {
     font-size: 20px;
     font-weight: 600;
 }
+
+
+/* ------------------------------- */
+.my-failures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px 250px;
+
+}
+
+.half-width {
+    width: 50%;
+}
+
+.failures-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure-description {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 25px 0 16px 0;
+}
+
+.fa-solid {
+    color: #16D887;
+    margin-right: 5px;
+}
+
+.ul-container li {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.position{
+    position: relative;
+}
+.bgcolor{
+    width: 528.929px;
+        height: 528.929px;
+        border-radius: 528.929px;
+            background: rgba(241, 91, 34, 0.20);
+            position: absolute;
+            bottom: 9px ;
+            left: 22px;
+            z-index: -1;
+}
+
+
